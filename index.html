@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Farmers Market Price Prediction</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="page-wrapper">
+  <div class="container">
+
+    <h1>🌾 Farmers Market Price Prediction</h1>
+    <p class="subtitle">
+      AI-based system to help farmers decide the right time to sell crops
+    </p>
+
+    <div class="form-section">
+
+      <label>State</label>
+      <select id="state"></select>
+
+      <label>District</label>
+      <select id="district"></select>
+
+      <label>Market</label>
+      <select id="market"></select>
+
+      <label>Commodity</label>
+      <select id="commodity"></select>
+
+      <label>Date</label>
+      <input type="date" id="priceDate">
+
+      <button onclick="predictPrice()">Predict Price</button>
+
+    </div>
+
+    <!-- Result Section -->
+    <div class="result-section" id="result">
+      <!-- JS fills content -->
+    </div>
+
+  </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

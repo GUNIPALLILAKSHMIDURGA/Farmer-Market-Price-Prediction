@@ -1,0 +1,95 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(to bottom right, #eef7ee, #f7fbf4);
+}
+
+/* Full page center */
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main card */
+.container {
+  width: 460px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Form section */
+.form-section label {
+  font-weight: 600;
+  margin-top: 12px;
+  display: block;
+}
+
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+select:focus, input:focus {
+  outline: none;
+  border-color: #2e7d32;
+}
+
+/* Button */
+button {
+  width: 100%;
+  margin-top: 22px;
+  padding: 12px;
+  background: #2e7d32;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b5e20;
+}
+
+/* Result section */
+.result-section {
+  margin-top: 25px;
+  padding: 18px;
+  border-radius: 10px;
+  background: #f1f8e9;
+  border: 1px solid #c5e1a5;
+  display: none;
+}
+
+.result-section h3 {
+  margin-top: 0;
+  color: #1b5e20;
+}
+
+.result-item {
+  margin: 10px 0;
+  font-size: 15px;
+}
